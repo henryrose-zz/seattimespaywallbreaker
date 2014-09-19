@@ -1,0 +1,18 @@
+{
+    "manifest_version": 2,
+
+    "name": "Seattle Times Paywall Breaker",
+    "description": "This extension gives users access to Seattle Times content",
+    "version": "1.0",
+
+    "permissions": [
+        "https://seattletimes.com/"
+    ],
+    "content_scripts" : [
+        {
+            "matches": ["http://seattletimes.com/*"],
+            "js" : ["jquery.js", "main.js"]
+        }
+    ]
+
+}
