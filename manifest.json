@@ -6,8 +6,8 @@
     "version": "1.0",
 
     "permissions": [
-        "https://seattletimes.com/",
-        "://blogs.seattletimes.com"
+        "*://seattletimes.com/",
+        "*://*.seattletimes.com"
     ],
     "content_scripts" : [
         {
